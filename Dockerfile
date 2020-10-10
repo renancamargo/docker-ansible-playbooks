@@ -4,7 +4,6 @@ RUN set -eux && \
     apt-get -y update && \
     DEBIAN_FRONTEND=noninteractive apt-get -y install \
             ansible \
-            vi \
             vim \
             systemd && \
     apt-get -y autoremove && \
