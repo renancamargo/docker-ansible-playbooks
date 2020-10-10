@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 RUN set -eux && \
     apt-get -y update && \
-    DEBIAN_FRONTEND=noninteractive apt-get -y --no-install-recommends install \
+    DEBIAN_FRONTEND=noninteractive apt-get -y install \
             ansible \
             systemd && \
     apt-get -y autoremove && \
