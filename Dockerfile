@@ -12,7 +12,7 @@
 #CMD ["/bin/bash"]
 
 FROM ubuntu:20.04
-
+ENV container docker
 ENV LC_ALL C
 ENV DEBIAN_FRONTEND noninteractive
 
